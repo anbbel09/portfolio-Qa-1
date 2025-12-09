@@ -608,6 +608,11 @@
       height: 100px;
     }
   }
+  .md\:h-\[120px\] {
+    @media (width >= 48rem) {
+      height: 120px;
+    }
+  }
   .md\:h-\[130px\] {
     @media (width >= 48rem) {
       height: 130px;
@@ -636,6 +641,11 @@
   .md\:w-\[100px\] {
     @media (width >= 48rem) {
       width: 100px;
+    }
+  }
+  .md\:w-\[120px\] {
+    @media (width >= 48rem) {
+      width: 120px;
     }
   }
   .md\:w-\[130px\] {
