@@ -603,6 +603,11 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .md\:h-\[100px\] {
+    @media (width >= 48rem) {
+      height: 100px;
+    }
+  }
   .md\:h-\[150px\] {
     @media (width >= 48rem) {
       height: 150px;
@@ -621,6 +626,11 @@
   .md\:h-\[780px\] {
     @media (width >= 48rem) {
       height: 780px;
+    }
+  }
+  .md\:w-\[100px\] {
+    @media (width >= 48rem) {
+      width: 100px;
     }
   }
   .md\:w-\[150px\] {
