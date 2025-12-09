@@ -785,6 +785,11 @@
       margin-top: calc(var(--spacing) * 0);
     }
   }
+  .lg\:h-\[230px\] {
+    @media (width >= 64rem) {
+      height: 230px;
+    }
+  }
   .lg\:h-\[700px\] {
     @media (width >= 64rem) {
       height: 700px;
@@ -803,6 +808,11 @@
   .lg\:w-4\/6 {
     @media (width >= 64rem) {
       width: calc(4/6 * 100%);
+    }
+  }
+  .lg\:w-\[230px\] {
+    @media (width >= 64rem) {
+      width: 230px;
     }
   }
   .lg\:w-\[760px\] {
