@@ -599,6 +599,16 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .md\:h-\[150px\] {
+    @media (width >= 48rem) {
+      height: 150px;
+    }
+  }
+  .md\:h-\[180px\] {
+    @media (width >= 48rem) {
+      height: 180px;
+    }
+  }
   .md\:h-\[700px\] {
     @media (width >= 48rem) {
       height: 700px;
@@ -607,6 +617,16 @@
   .md\:h-\[780px\] {
     @media (width >= 48rem) {
       height: 780px;
+    }
+  }
+  .md\:w-\[150px\] {
+    @media (width >= 48rem) {
+      width: 150px;
+    }
+  }
+  .md\:w-\[180px\] {
+    @media (width >= 48rem) {
+      width: 180px;
     }
   }
   .md\:w-\[760px\] {
@@ -619,6 +639,11 @@
       max-width: 660px;
     }
   }
+  .md\:gap-6 {
+    @media (width >= 48rem) {
+      gap: calc(var(--spacing) * 6);
+    }
+  }
   .md\:gap-10 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 10);
@@ -627,6 +652,11 @@
   .md\:gap-14 {
     @media (width >= 48rem) {
       gap: calc(var(--spacing) * 14);
+    }
+  }
+  .md\:p-10 {
+    @media (width >= 48rem) {
+      padding: calc(var(--spacing) * 10);
     }
   }
   .md\:px-10 {
@@ -729,6 +759,11 @@
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
+    }
+  }
+  .lg\:gap-10 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 10);
     }
   }
   .lg\:gap-40 {
