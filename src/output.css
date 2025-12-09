@@ -790,6 +790,11 @@
       height: 120px;
     }
   }
+  .lg\:h-\[180px\] {
+    @media (width >= 64rem) {
+      height: 180px;
+    }
+  }
   .lg\:h-\[230px\] {
     @media (width >= 64rem) {
       height: 230px;
@@ -818,6 +823,16 @@
   .lg\:w-\[120px\] {
     @media (width >= 64rem) {
       width: 120px;
+    }
+  }
+  .lg\:w-\[130px\] {
+    @media (width >= 64rem) {
+      width: 130px;
+    }
+  }
+  .lg\:w-\[180px\] {
+    @media (width >= 64rem) {
+      width: 180px;
     }
   }
   .lg\:w-\[230px\] {
